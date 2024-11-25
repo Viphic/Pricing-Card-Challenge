@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: karla, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+.card {
+  height: 400px;
+  width: 600px;
+  box-shadow: 1px 0px 7px 1px rgba(0,0,0,0.37);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.top-section {
+  width: 100%;
+  height: 40%;
+  padding: 20px;
+}
+
+.info {
+  margin: 10px;
+}
+
+#join-com {
+  color: #2ab2b0;
+}
+
+#thirty-day {
+  color: #cfeb5e;
+}
+
+#join-info {
+  line-height: 11px;
+}
+
+.bottom-section {
+  display: flex;
+  width: 100%;
+  height: 60%;
+}
+
+.bottom-left, .bottom-right {
+  flex: 50%;
+  color: white;
+  padding: 30px;
+}
+
+.bottom-left {
+  background-color: #2ab2b0;
+}
+
+.price-month {
+  display: flex;
+}
+
+#price {
+  margin-top: 15px;
+}
+
+#per-month {
+  margin: 24px 15px 15px 15px;
+  opacity: 60%;
+}
+
+#full-access {
+  margin: 0px;
+}
+
+.sign-up-button {
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cfeb5e;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  box-shadow: 1px 5px 13px -4px rgba(0,0,0,0.79);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 80%;
+  transform: scale(1.01);
+}
+
+.bottom-right {
+  background-color: #1dccc9;
+}
+
+.why-list {
+  list-style-type: none;
+  font-size: 15px;
+  color: #f0efed;
+  padding-left: 0px;
+  line-height: 19px;
+}
