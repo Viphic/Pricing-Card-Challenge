@@ -1,3 +1,3 @@
 function alertMe () {
-  alert('You pressed the button!')
+  alert('You pressed the button!');
 }
